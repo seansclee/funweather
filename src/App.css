@@ -1,5 +1,90 @@
 .App {
-  text-align: center;
+  padding-right: 0em;
+  padding-left: 0em;
+}
+
+.bubble-orange {
+  width:10vh;
+  height:10vh;
+  border-radius:5vh;
+  font-size:10px;    
+  color: white;
+  line-height:10vh;
+  text-align:center;
+  background: orange;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.bubble-blue {
+  width:10vh;
+  height:10vh;
+  border-radius:5vh;
+  font-size:10px;    
+  color: white;
+  line-height:10vh;
+  text-align:center;
+  background: orange;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  z-index: 1;
+}
+
+.bubble-white {
+  width:10vh;
+  height:10vh;
+  border-radius:5vh;
+  font-size:10px;    
+  color: white;
+  line-height:10vh;
+  text-align:center;
+  background: orange;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+  z-index: 1;
+}
+
+.bubble-yellow {
+  width:10vh;
+  height:10vh;
+  border-radius:5vh;
+  font-size:10px;    
+  color: white;
+  line-height:10vh;
+  text-align:center;
+  background: orange;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  z-index: 1;
+}
+
+#down-button {
+  width:10vh;
+  height:10vh;
+  border-radius:5vh;
+  font-size:10px;    
+  color: orange;
+  line-height:10vh;
+  text-align:center;
+  background: white;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  z-index: 1;
+}
+
+#down-button:hover {
+	background-color: whitesmoke;  
+}
+
+#down-button:active {
+	background-color: lightgrey;
+  top: +2px;
 }
 
 .App-logo {
