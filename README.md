@@ -1,20 +1,27 @@
 # Fun Weather.
 
+[funweather.herokuapp.com](https://funweather.herokuapp.com)
+
+Bootstrapped with Create React App
 Built with Semantic-UI-React
 Deployed with Heroku
 
 1:1 recreation of 'Weather App Theme' design concept
 
-best viewed in 1920x1080 res
+<img alt="concept" src="./concept.png" width="600px">
 
 Features:
 
-• JQuery free scroll button functionality
-• Styled with custom built Semantic UI theme
-• Translation/animation effects
-• Working links and redirect
+- JQuery free scroll button functionality
+- Styled with custom built Semantic UI theme
+- Translation/animation effects
+- Working links and redirect
+
+website best viewed in 1920x1080 res
 
 refer to colors.txt in 'public' folder for hex color codes
+
+...
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

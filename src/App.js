@@ -65,7 +65,7 @@ class App extends Component {
               <Menu.Item href='https://www.instagram.com'>
                 <Icon size='large' name='instagram' />
               </Menu.Item>
-              <Menu.Item href='https://www.twitter.com'>
+              <Menu.Item href='https://twitter.com'>
                 <Icon size='large' name='twitter' />
               </Menu.Item>
             </Menu.Menu>
@@ -199,7 +199,7 @@ class App extends Component {
                 <Menu.Item href='https://www.instagram.com'>
                   <Icon size='large' name='instagram' />
                 </Menu.Item>
-                <Menu.Item href='https://www.twitter.com'>
+                <Menu.Item href='https://twitter.com'>
                   <Icon size='large' name='twitter' />
                 </Menu.Item>
               </Menu.Menu>
