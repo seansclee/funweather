@@ -1,0 +1,19 @@
+**Color Codes**
+
+color="#fc6a42" download, SUNNY 
+
+color="#4466c9" features, LONDON
+
+color="#6ca3ff" 9 (text)
+
+color="#fcec64" RIO
+
+color="#9db0c5" RIO (text)
+
+color="#648cff" PERFECT FEATURES
+
+color="#bfbfbf" Only necessary
+
+color="#353854" Usability, footer
+
+color="#aeaeae" Sometimes the simplest...
