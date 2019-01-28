@@ -19,7 +19,7 @@ class App extends Component {
 
   handleItemClick = (e, { name }) => this.setState({ ...this.state, activeItem: name })
 
-  scrollTo = () => Scroll.animateScroll.scrollTo(880)
+  scrollTo = () => Scroll.animateScroll.scrollTo(900)
 
   render() {
     const { activeItem, phoneVisible } = this.state
@@ -85,7 +85,7 @@ class App extends Component {
                     </Header.Subheader>
                   </Header.Content>
                 </Header>
-                <Container style={{ marginBottom: '11vw' }}>
+                <Container style={{ marginBottom: '12.5vw' }}>
                   <Button size='big' color='orange'>Download</Button>
                   <Button size='big' color='blue'>Features</Button>
                 </Container>
@@ -115,7 +115,7 @@ class App extends Component {
           <Header color='pink' as='h1' textAlign='center' style={{ fontSize: '1.8vw' }}>PERFECT FEATURES</Header>
           <Header color='brown' as='h4' textAlign='center'>Only necessary</Header>
         </Container>
-        <Container style={{ padding: '8vw 0vw 23.2vw' }}>
+        <Container style={{ padding: '7.8vw 0vw 23.2vw' }}>
           <Grid columns={6}>
             <Grid.Column width={2}>
               <Image floated='right' src={icon1} />

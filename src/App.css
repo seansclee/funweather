@@ -20,7 +20,7 @@
   text-align:center;
   background: #fc6a42;
   position: absolute;
-  left: 0vw;
+  left: -1.5vw;
   top: 21.5vw;
   z-index: 1;
   font-family: Ubuntu;
@@ -37,7 +37,7 @@
   text-align:center;
   background: #4466c9;
   position: absolute;
-  right: 3vw;
+  right: 1.7vw;
   top: 19.5vw;
   z-index: 1;
   font-family: Ubuntu;
@@ -54,7 +54,7 @@
   text-align:center;
   background: white;
   position: absolute;
-  right: 6.4vw;
+  right: 4.9vw;
   top: 10.5vw;
   z-index: 1;
   font-family: Ubuntu;
@@ -71,7 +71,7 @@
   text-align:center;
   background: #fcec64;
   position: absolute;
-  right: 5.7vw;
+  right: 4.3vw;
   top: 36vw;
   z-index: 1;
   font-family: Ubuntu;
