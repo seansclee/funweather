@@ -7,84 +7,86 @@
   opacity: 0;
   animation: fadein ease-in 1;
   animation-fill-mode: forwards;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
 }
 
 .bubble.orange {
-  width:10vh;
-  height:10vh;
-  border-radius:5vh;
-  font-size:10px;    
+  width:5vw;
+  height:5vw;
+  border-radius:2.5vw;
+  font-size:1vw;    
   color: white;
-  line-height:10vh;
+  line-height:5vw;
   text-align:center;
   background: #fc6a42;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 1;
-  font-family: Ubuntu;
-  animation-delay: 0.5s;
-}
-
-.bubble.blue {
-  width:10vh;
-  height:10vh;
-  border-radius:5vh;
-  font-size:10px;    
-  color: white;
-  line-height:10vh;
-  text-align:center;
-  background: #4466c9;
-  position: absolute;
-  left: 0px;
-  top: 100px;
+  left: 0vw;
+  top: 21.5vw;
   z-index: 1;
   font-family: Ubuntu;
   animation-delay: 1s;
 }
 
-.bubble.white {
-  width:10vh;
-  height:10vh;
-  border-radius:5vh;
-  font-size:10px;    
-  color: #6ca3ff;
-  line-height:10vh;
+.bubble.blue {
+  width:5vw;
+  height:5vw;
+  border-radius:2.5vw;
+  font-size:1vw;    
+  color: white;
+  line-height:5vw;
   text-align:center;
-  background: white;
+  background: #4466c9;
   position: absolute;
-  left: 0px;
-  top: 150px;
+  left: 25.3vw;
+  top: 19.5vw;
   z-index: 1;
   font-family: Ubuntu;
   animation-delay: 1.5s;
 }
 
-.bubble.yellow {
-  width:10vh;
-  height:10vh;
-  border-radius:5vh;
-  font-size:10px;    
-  color: #9db0c5;
-  line-height:10vh;
+.bubble.white {
+  width:3vw;
+  height:3vw;
+  border-radius:1.5vw;
+  font-size:1vw;    
+  color: #6ca3ff;
+  line-height:3vw;
   text-align:center;
-  background: #fcec64;
+  background: white;
   position: absolute;
-  left: 0px;
-  top: 200px;
+  left: 24vw;
+  top: 10.5vw;
   z-index: 1;
   font-family: Ubuntu;
   animation-delay: 2s;
 }
 
+.bubble.yellow {
+  width:2.8vw;
+  height:2.8vw;
+  border-radius:1.4vw;
+  font-size:.9vw;    
+  color: #9db0c5;
+  line-height:2.8vw;
+  text-align:center;
+  background: #fcec64;
+  position: absolute;
+  left: 24.5vw;
+  top: 36vw;
+  z-index: 1;
+  font-family: Ubuntu;
+  animation-delay: 2.5s;
+}
+
 #button {
-  width:10vh;
-  height:10vh;
-  border-radius:5vh;
-  font-size:10px;    
+  padding-top: '20vw';
+  top: '50vw';
+  width:2.7vw;
+  height:2.7vw;
+  border-radius:1.35vw;
+  font-size:.7vw;    
   color: orange;
-  line-height:10vh;
+  line-height:2.7vw;
   text-align:center;
   background: white;
   margin: auto;

@@ -1,6 +1,5 @@
 body {
-  background: url(wave.png) no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 1000px;
+  background: url(wave.png) no-repeat center top;
+  background-size: 100%;
+  height: 2000px;
 }
