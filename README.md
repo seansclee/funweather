@@ -2,8 +2,8 @@
 
 [funweather.herokuapp.com](https://funweather.herokuapp.com)
 
-Bootstrapped with Create React App
-Built with Semantic-UI-React
+Bootstrapped with Create React App<br>
+Built with Semantic-UI-React<br>
 Deployed with Heroku
 
 1:1 recreation of 'Weather App Theme' design concept
@@ -16,8 +16,6 @@ Features:
 - Styled with custom built Semantic UI theme
 - Translation/animation effects
 - Working links and redirect
-
-website best viewed in 1920x1080 res
 
 refer to colors.txt in 'public' folder for hex color codes
 
