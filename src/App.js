@@ -25,6 +25,8 @@ class App extends Component {
     const { activeItem, phoneVisible } = this.state
     return (
       <div className='App'>
+
+        {/* top navbar */}
         <Container>
           <Menu inverted text size='small'>
             <Menu.Item position='left' link href='/'>
@@ -69,6 +71,8 @@ class App extends Component {
             </Menu.Menu>
           </Menu>
         </Container>
+
+        {/* main banner */}
         <Container style={{ height: '50vw' }}>
           <Grid>
             <Grid.Row columns={2}>
@@ -105,6 +109,8 @@ class App extends Component {
             <Icon style={{ margin: 'auto' }} name='chevron down' />
           </div>
         </Container>
+
+        {/* features overview */}
         <Container style={{ paddingTop: '5.5vw' }}>
           <Header color='pink' as='h1' textAlign='center' style={{ fontSize: '1.8vw' }}>PERFECT FEATURES</Header>
           <Header color='brown' as='h4' textAlign='center'>Only necessary</Header>
@@ -152,6 +158,8 @@ class App extends Component {
             </Grid.Column>
           </Grid>
         </Container>
+
+        {/* footer */}
         <Segment color='purple' inverted style={{ padding: '3.8vw 0em 6.1vw' }}>
           <Container>
             <Menu inverted text size='small'>
