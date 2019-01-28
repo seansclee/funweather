@@ -6,6 +6,7 @@ import icon3 from './icon3.png'
 import logo from './logo.png'
 import coloredLogo from './coloredLogo.png'
 import './App.css'
+import Scroll from 'react-scroll'
 import { Menu, Header, Icon, Segment, Grid, Image, Transition, Container, Button, Divider } from 'semantic-ui-react'
 
 
@@ -17,6 +18,8 @@ class App extends Component {
   }
 
   handleItemClick = (e, { name }) => this.setState({ ...this.state, activeItem: name })
+
+  scrollTo = () => Scroll.animateScroll.scrollTo(600)
 
   render() {
     const { activeItem, phoneVisible } = this.state
@@ -53,11 +56,17 @@ class App extends Component {
                 onClick={this.handleItemClick}
               />
             </Menu.Menu>
-            <Menu.Item position='right'>
-              <Icon size='large' link name='facebook f' />
-              <Icon size='large' link name='instagram' />
-              <Icon size='large' link name='twitter' />
-            </Menu.Item>
+            <Menu.Menu relaxed position='right'>
+                <Menu.Item>
+                  <Icon size='large' link name='facebook f' />
+                </Menu.Item>
+                <Menu.Item>
+                  <Icon size='large' link name='instagram' />
+                </Menu.Item>
+                <Menu.Item>
+                  <Icon size='large' link name='twitter' />
+                </Menu.Item>
+              </Menu.Menu>
           </Menu>
         </Container>
         <Container style={{ height: '600px', paddingRight: '10em', paddingLeft: '10em' }}>
@@ -86,9 +95,9 @@ class App extends Component {
               </Grid.Column>
             </Grid.Row>
           </Grid>
-        <div id='button'>
-          <Icon style={{ margin: 'auto' }} name='chevron down' />
-        </div>
+          <div id='button' onClick={this.scrollTo}>
+            <Icon style={{ margin: 'auto' }} name='chevron down' />
+          </div>
         </Container>
         <Header color='pink' as='h1' textAlign='center'>PERFECT FEATURES</Header>
         <Header color='brown' as='h4' textAlign='center'>Only necessary</Header>
@@ -167,11 +176,17 @@ class App extends Component {
                   onClick={this.handleItemClick}
                 />
               </Menu.Menu>
-              <Menu.Item fluid position='right'>
-                <Icon size='large' link name='facebook f' />
-                <Icon size='large' link name='instagram' />
-                <Icon size='large' link name='twitter' />
-              </Menu.Item>
+              <Menu.Menu relaxed position='right'>
+                <Menu.Item>
+                  <Icon size='large' link name='facebook f' />
+                </Menu.Item>
+                <Menu.Item>
+                  <Icon size='large' link name='instagram' />
+                </Menu.Item>
+                <Menu.Item>
+                  <Icon size='large' link name='twitter' />
+                </Menu.Item>
+              </Menu.Menu>
             </Menu>
             <Divider inverted />
             <Header as='h6' style={{ color: '#565b87' }} inverted floated='right'>Weather App Theme by Gravpix recreated by Sean Lee 2019</Header>
