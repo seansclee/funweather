@@ -19,7 +19,7 @@ class App extends Component {
 
   handleItemClick = (e, { name }) => this.setState({ ...this.state, activeItem: name })
 
-  scrollTo = () => Scroll.animateScroll.scrollTo(900)
+  scrollTo = () => Scroll.animateScroll.scrollTo(880)
 
   render() {
     const { activeItem, phoneVisible } = this.state
