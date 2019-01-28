@@ -19,7 +19,7 @@ class App extends Component {
 
   handleItemClick = (e, { name }) => this.setState({ ...this.state, activeItem: name })
 
-  scrollTo = () => Scroll.animateScroll.scrollTo(1000)
+  scrollTo = () => Scroll.animateScroll.scrollTo(880)
 
   render() {
     const { activeItem, phoneVisible } = this.state
@@ -110,7 +110,7 @@ class App extends Component {
           <Header color='brown' as='h4' textAlign='center'>Only necessary</Header>
         </Container>
         <Container style={{ padding: '8vw 0vw 23.2vw' }}>
-          <Grid equal centered columns={6}>
+          <Grid columns={6}>
             <Grid.Column width={2}>
               <Image floated='right' src={icon1} />
             </Grid.Column>
@@ -118,7 +118,7 @@ class App extends Component {
               <Header as='h3'>
                 <Header.Content style={{ color: '#353854', fontSize: '1.2vw' }}>
                   Usability
-                  <Header.Subheader style={{ color: 'aeaeae', fontSize: '1vw', lineHeight: '1.8em' }}>
+                  <Header.Subheader style={{ color: 'aeaeae', fontSize: '.75vw', paddingTop: '.8vw', lineHeight: '1.8em' }}>
                     Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
                   </Header.Subheader>
                 </Header.Content>
@@ -131,7 +131,7 @@ class App extends Component {
               <Header as='h3'>
                 <Header.Content style={{ color: '#353854', fontSize: '1.2vw' }}>
                   Parallax Effect
-                  <Header.Subheader style={{ color: 'aeaeae', fontSize: '.7em', lineHeight: '1.8em' }}>
+                  <Header.Subheader style={{ color: 'aeaeae', fontSize: '.75vw', paddingTop: '.8vw', lineHeight: '1.8em' }}>
                     Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
                   </Header.Subheader>
                 </Header.Content>
@@ -144,7 +144,7 @@ class App extends Component {
               <Header as='h3'>
                 <Header.Content style={{ color: '#353854', fontSize: '1.2vw' }}>
                   Unlimites Colors
-                  <Header.Subheader style={{ color: 'aeaeae', fontSize: '.7em', lineHeight: '1.8em' }}>
+                  <Header.Subheader style={{ color: 'aeaeae', fontSize: '.75vw', paddingTop: '.8vw', lineHeight: '1.8em' }}>
                     Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
                   </Header.Subheader>
                 </Header.Content>
@@ -152,8 +152,8 @@ class App extends Component {
             </Grid.Column>
           </Grid>
         </Container>
-        <Segment color='purple' inverted style={{ padding: '2em 0em 2em' }}>
-          <Container style={{ paddingRight: '10em', paddingLeft: '10em' }}>
+        <Segment color='purple' inverted style={{ padding: '3.8vw 0em 6.1vw' }}>
+          <Container>
             <Menu inverted text size='small'>
               <Menu.Item position='left' link href='/'>
                 <Image size='small' src={coloredLogo} />
@@ -196,8 +196,8 @@ class App extends Component {
                 </Menu.Item>
               </Menu.Menu>
             </Menu>
-            <Divider inverted />
-            <Header as='h6' style={{ color: '#565b87' }} inverted floated='right'>Weather App Theme by Gravpix recreated by Sean Lee 2019</Header>
+            <Divider inverted style={{ paddingBottom: '3.8vw' }}/>
+            <Header as='h5' style={{ color: '#565b87', paddingTop: '1.3vw' }} inverted floated='right'>Weather App Theme by Gravpix recreated by Sean Lee 2019</Header>
           </Container>
         </Segment>
       </div>
