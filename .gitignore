@@ -10,7 +10,7 @@
 
 # production
 /build
-/semantic/dist
+/src/semantic/dist
 
 # misc
 .DS_Store
